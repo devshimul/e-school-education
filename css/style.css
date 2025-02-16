@@ -6,3 +6,44 @@
 body {
   font-family: "Poppins", serif;
 }
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header menu css start */
+.header-section {
+  background-color: #f0fff0;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 198px;
+  display: block;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.signin-btn {
+  background-color: transparent;
+  padding: 4px 28px;
+  border-radius: 35px;
+  color: #21b573 !important;
+  border: 2px solid #21b573;
+  transition: 0.5s;
+}
+.signin-btn:hover {
+  background-color: #21b573;
+  color: #fff !important;
+}
+/* Header menu css end */
