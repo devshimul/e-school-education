@@ -10,10 +10,26 @@ body {
   max-width: 1140px;
   margin: 0 auto;
 }
+.default-btn {
+  background-color: transparent;
+  padding: 4px 28px;
+  border-radius: 35px;
+  color: #21b573 !important;
+  border: 2px solid #21b573;
+  transition: 0.5s;
+  text-decoration: none;
+  margin-top: 16px;
+  display: inline-block;
+}
+.default-btn:hover {
+  background-color: #21b573;
+  color: #fff !important;
+}
 
 /* Header menu css start */
 .header-section {
   background-color: #f0fff0;
+  padding: 20px 0;
 }
 .header-menu {
   display: flex;
@@ -47,3 +63,33 @@ body {
   color: #fff !important;
 }
 /* Header menu css end */
+/* Hero section css start */
+.hero-section {
+  background-color: #f0fff0;
+  padding: 40px 0;
+}
+.section-row {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-heading {
+  color: #fd511a;
+}
+.primary-heading {
+  color: #000;
+  font-size: 40px;
+  margin: 16px 0;
+}
+.primary-descripiton {
+}
+.section-image {
+}
+.section-image img {
+  width: 554px;
+}
+.heading-color {
+  color: #21b573;
+}
+/* Hero section css end */
