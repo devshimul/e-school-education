@@ -25,6 +25,9 @@ body {
   background-color: #21b573;
   color: #fff !important;
 }
+img {
+  max-width: 100%;
+}
 
 /* Header menu css start */
 .header-section {
@@ -82,10 +85,6 @@ body {
   font-size: 40px;
   margin: 16px 0;
 }
-.primary-descripiton {
-}
-.section-image {
-}
 .section-image img {
   width: 554px;
 }
@@ -93,3 +92,96 @@ body {
   color: #21b573;
 }
 /* Hero section css end */
+/* Counter section css start */
+.counter-section {
+  padding: 50px 0;
+}
+.counter-row {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+.counter-card {
+  width: 25%;
+  text-align: center;
+  padding: 36px 0;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.counter-card:hover {
+  box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.6);
+}
+.counter-card img {
+  width: 66px;
+}
+.counter-card h5 {
+  font-size: 16px;
+  margin: 6px 0;
+}
+/* Counter section css end */
+
+/* Course section css start */
+.course-section {
+  padding: 50px 0;
+}
+.section-title h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 40px;
+}
+
+.course-row {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.course-card {
+  /* width: 33.33%; */
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.date-seat {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0;
+}
+.date {
+  display: flex;
+  gap: 10px;
+}
+
+.seat {
+  display: flex;
+  gap: 10px;
+}
+
+/* Course section css end */
+/* Testimonial css start */
+.testimonial-section {
+  width: 700px;
+  margin: auto;
+  padding: 50px 0;
+}
+.testimonial-title h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 40px;
+}
+
+.user-feedback {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.author-img img {
+  width: 180px;
+}
+.author-text p {
+  text-align: justify;
+}
+/* Testimonial css end */
